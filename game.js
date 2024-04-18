@@ -74,7 +74,7 @@ class Game {
 
     console.log(headerRowWithEmphasis);
     // Prepare header with PC vs. User
-    let header = "| v PC\\User >  |";
+    let header = "| PC\\User >  |";
     this.moves.forEach((move) => {
       header += ` ${move.padEnd(6)} |`;
     });
